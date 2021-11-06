@@ -20,7 +20,7 @@ class SQRServiceTest {
     void findNumbers(int rangeStart, int rangeEnd, int expected) {
 
         SQRService service = new SQRService();
-        long actual = service.findNumbers(rangeStart, rangeEnd);
+        int actual = service.findNumbers(rangeStart, rangeEnd);
 
         assertEquals(expected, actual);
     }
